@@ -30,7 +30,7 @@ The primary challenge is to build a robust predictive model that can accurately 
    - Lasso Regression
    - XGBoost
 4. Optimize models using GridSearchCV for hyperparameter tuning.
-5. Deploy the best-performing model as a web application (optional).
+5. Deploy the best-performing model as a web application with docker and on the cloud.
 
 ---
 
