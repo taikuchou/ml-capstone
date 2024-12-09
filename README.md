@@ -100,8 +100,12 @@ The dataset contains information about cars and their features, which are used t
      - **RMSE (Root Mean Squared Error)**: To measure prediction accuracy.
      - \( R^2 \): To measure how well the model explains variance.
 
-6. **Deployment** :
-   - Package the best model into a web application using streamlit.
+6. **Containerization** :
+
+   - Package the best model into a web application using streamlit and docker.
+
+7. **Cloud deployment** :
+   - Deploying the best-performing machine learning model on the cloud enables it to be accessed by end users through web applications.
 
 ---
 
@@ -174,7 +178,7 @@ The dataset contains information about cars and their features, which are used t
 
 ---
 
-### Model Deployment in Cloud https://streamlit.io/
+### Model Deployment on the Cloud https://streamlit.io/
 
-- **Deploy on cloud**:
+- **Deploy on the cloud**:
   https://ml-capstoneproject-car-price-kuchoutai.streamlit.app/
