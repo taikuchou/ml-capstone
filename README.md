@@ -140,10 +140,11 @@ The dataset contains information about cars and their features, which are used t
    python train.py
    ```
 5. Model Testing by using python:
+   - Test the pipeline locally:
    ```bash
    python test.py
    ```
-6. Launch Web Application:
+6. Launch local Web application:
    - Run the prediction service using Streamlit:
    ```bash
    streamlit run predict.py
@@ -165,8 +166,15 @@ The dataset contains information about cars and their features, which are used t
   ```console
   docker build -t ml-capstone-project .
   ```
-  - Run docker service
+  - Run docker service locally
   ```console
   docker run -p 8501:8501 ml-capstone-project
   ```
-  Access the service at http://localhost:8501/.
+  Access the local service at http://localhost:8501/.
+
+---
+
+### Model Deployment in Cloud https://streamlit.io/
+
+- **Deploy on cloud**:
+  https://ml-capstoneproject-car-price-kuchoutai.streamlit.app/
